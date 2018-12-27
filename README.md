@@ -1,0 +1,2 @@
+# WSPods
+My CocoaPods
