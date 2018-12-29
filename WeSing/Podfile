@@ -12,6 +12,7 @@ end
 
 def wesingSDK_pods
     pod 'WeSingLibs/WSLoginSDK', :path => '../WeSingLibs.podspec'
+    #其它工程使用 pod 'WeSingLibs/WSLoginSDK', :git => 'https://github.com/SammyLan/WSPods.git'
 end
 
 target 'WeSing' do

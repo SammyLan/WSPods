@@ -11,6 +11,16 @@
 		DBD0108221D7A99C0071CEA0 /* WSLoginSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = DBD0108021D7A99C0071CEA0 /* WSLoginSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DBD0108A21D7B6540071CEA0 /* WSLoginBase.h in Headers */ = {isa = PBXBuildFile; fileRef = DBD0108821D7B6540071CEA0 /* WSLoginBase.h */; };
 		DBD0108B21D7B6540071CEA0 /* WSLoginBase.m in Sources */ = {isa = PBXBuildFile; fileRef = DBD0108921D7B6540071CEA0 /* WSLoginBase.m */; };
+		DBD0109021D7C1210071CEA0 /* WSFBLogin.h in Headers */ = {isa = PBXBuildFile; fileRef = DBD0108E21D7C1210071CEA0 /* WSFBLogin.h */; };
+		DBD0109121D7C1210071CEA0 /* WSFBLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = DBD0108F21D7C1210071CEA0 /* WSFBLogin.m */; };
+		DBD0109421D7C25D0071CEA0 /* WSQQLogin.h in Headers */ = {isa = PBXBuildFile; fileRef = DBD0109221D7C25D0071CEA0 /* WSQQLogin.h */; };
+		DBD0109521D7C25D0071CEA0 /* WSQQLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = DBD0109321D7C25D0071CEA0 /* WSQQLogin.m */; };
+		DBD0109821D7C27A0071CEA0 /* WSTWTLogin.h in Headers */ = {isa = PBXBuildFile; fileRef = DBD0109621D7C27A0071CEA0 /* WSTWTLogin.h */; };
+		DBD0109C21D7C2900071CEA0 /* WSWXLogin.h in Headers */ = {isa = PBXBuildFile; fileRef = DBD0109A21D7C2900071CEA0 /* WSWXLogin.h */; };
+		DBD010A021D7C2AD0071CEA0 /* WSGPLogin.h in Headers */ = {isa = PBXBuildFile; fileRef = DBD0109E21D7C2AD0071CEA0 /* WSGPLogin.h */; };
+		DBD010A121D7C2AD0071CEA0 /* WSGPLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = DBD0109F21D7C2AD0071CEA0 /* WSGPLogin.m */; };
+		DBD010A321D7C37E0071CEA0 /* WSTWTLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = DBD010A221D7C37E0071CEA0 /* WSTWTLogin.m */; };
+		DBD010A521D7C4060071CEA0 /* WSWXLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = DBD010A421D7C4060071CEA0 /* WSWXLogin.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +32,16 @@
 		DBD0108121D7A99C0071CEA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DBD0108821D7B6540071CEA0 /* WSLoginBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSLoginBase.h; sourceTree = "<group>"; };
 		DBD0108921D7B6540071CEA0 /* WSLoginBase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSLoginBase.m; sourceTree = "<group>"; };
+		DBD0108E21D7C1210071CEA0 /* WSFBLogin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSFBLogin.h; sourceTree = "<group>"; };
+		DBD0108F21D7C1210071CEA0 /* WSFBLogin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSFBLogin.m; sourceTree = "<group>"; };
+		DBD0109221D7C25D0071CEA0 /* WSQQLogin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSQQLogin.h; sourceTree = "<group>"; };
+		DBD0109321D7C25D0071CEA0 /* WSQQLogin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSQQLogin.m; sourceTree = "<group>"; };
+		DBD0109621D7C27A0071CEA0 /* WSTWTLogin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSTWTLogin.h; sourceTree = "<group>"; };
+		DBD0109A21D7C2900071CEA0 /* WSWXLogin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSWXLogin.h; sourceTree = "<group>"; };
+		DBD0109E21D7C2AD0071CEA0 /* WSGPLogin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSGPLogin.h; sourceTree = "<group>"; };
+		DBD0109F21D7C2AD0071CEA0 /* WSGPLogin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSGPLogin.m; sourceTree = "<group>"; };
+		DBD010A221D7C37E0071CEA0 /* WSTWTLogin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSTWTLogin.m; sourceTree = "<group>"; };
+		DBD010A421D7C4060071CEA0 /* WSWXLogin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSWXLogin.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,12 +94,30 @@
 		DBD0107F21D7A99C0071CEA0 /* WSLoginSDK */ = {
 			isa = PBXGroup;
 			children = (
+				DBD0108D21D7C0D20071CEA0 /* impl */,
 				DBD0108021D7A99C0071CEA0 /* WSLoginSDK.h */,
 				DBD0108121D7A99C0071CEA0 /* Info.plist */,
 				DBD0108821D7B6540071CEA0 /* WSLoginBase.h */,
 				DBD0108921D7B6540071CEA0 /* WSLoginBase.m */,
 			);
 			path = WSLoginSDK;
+			sourceTree = "<group>";
+		};
+		DBD0108D21D7C0D20071CEA0 /* impl */ = {
+			isa = PBXGroup;
+			children = (
+				DBD0108E21D7C1210071CEA0 /* WSFBLogin.h */,
+				DBD0108F21D7C1210071CEA0 /* WSFBLogin.m */,
+				DBD0109221D7C25D0071CEA0 /* WSQQLogin.h */,
+				DBD0109321D7C25D0071CEA0 /* WSQQLogin.m */,
+				DBD0109621D7C27A0071CEA0 /* WSTWTLogin.h */,
+				DBD010A221D7C37E0071CEA0 /* WSTWTLogin.m */,
+				DBD0109A21D7C2900071CEA0 /* WSWXLogin.h */,
+				DBD010A421D7C4060071CEA0 /* WSWXLogin.m */,
+				DBD0109E21D7C2AD0071CEA0 /* WSGPLogin.h */,
+				DBD0109F21D7C2AD0071CEA0 /* WSGPLogin.m */,
+			);
+			path = impl;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -90,7 +128,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				DBD0108221D7A99C0071CEA0 /* WSLoginSDK.h in Headers */,
+				DBD010A021D7C2AD0071CEA0 /* WSGPLogin.h in Headers */,
+				DBD0109821D7C27A0071CEA0 /* WSTWTLogin.h in Headers */,
 				DBD0108A21D7B6540071CEA0 /* WSLoginBase.h in Headers */,
+				DBD0109C21D7C2900071CEA0 /* WSWXLogin.h in Headers */,
+				DBD0109421D7C25D0071CEA0 /* WSQQLogin.h in Headers */,
+				DBD0109021D7C1210071CEA0 /* WSFBLogin.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,7 +246,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBD0109521D7C25D0071CEA0 /* WSQQLogin.m in Sources */,
+				DBD010A121D7C2AD0071CEA0 /* WSGPLogin.m in Sources */,
 				DBD0108B21D7B6540071CEA0 /* WSLoginBase.m in Sources */,
+				DBD0109121D7C1210071CEA0 /* WSFBLogin.m in Sources */,
+				DBD010A521D7C4060071CEA0 /* WSWXLogin.m in Sources */,
+				DBD010A321D7C37E0071CEA0 /* WSTWTLogin.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

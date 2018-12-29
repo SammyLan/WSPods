@@ -19,7 +19,8 @@ Pod::Spec.new do |spec|
   spec.default_subspec = 'WSLoginSDK'
 
   spec.subspec 'WSLoginSDK' do |subspec|
-    subspec.source_files = 'WSLoginSDK/WSLoginSDK/*.{h,m,mm}'
+    subspec.source_files = 'WSLoginSDK/WSLoginSDK/**/*.{h,m,mm}'
+    #subspec.public_header_files = 'WSLoginSDK/WSLoginSDK/*.h'
   end
 
 end
