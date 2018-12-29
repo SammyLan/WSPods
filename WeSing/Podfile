@@ -1,0 +1,31 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '8.0'
+
+workspace 'WeSing'
+
+def loginSDK_pods
+    pod 'FBSDKLoginKit', '4.36.0'
+    pod 'FBSDKShareKit', '4.36.0'
+    pod 'GoogleSignIn'
+    pod 'WechatOpenSDK', '1.7.9'
+end
+
+target 'WeSing' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for WeSing
+  loginSDK_pods
+
+end
+
+target 'WSLoginSDK' do
+  project '../WSLoginSDK/WSLoginSDK'
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for WeSing
+  loginSDK_pods
+
+end
+
