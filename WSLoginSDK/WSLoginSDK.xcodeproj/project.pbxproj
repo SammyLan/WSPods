@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		C0A394FB4BB417E87083EDF7 /* Pods_WSLoginSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3786F2F159801D41F6187828 /* Pods_WSLoginSDK.framework */; };
 		DBD0108221D7A99C0071CEA0 /* WSLoginSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = DBD0108021D7A99C0071CEA0 /* WSLoginSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBD0108A21D7B6540071CEA0 /* WSLoginBase.h in Headers */ = {isa = PBXBuildFile; fileRef = DBD0108821D7B6540071CEA0 /* WSLoginBase.h */; };
+		DBD0108B21D7B6540071CEA0 /* WSLoginBase.m in Sources */ = {isa = PBXBuildFile; fileRef = DBD0108921D7B6540071CEA0 /* WSLoginBase.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +20,8 @@
 		DBD0107D21D7A99C0071CEA0 /* WSLoginSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WSLoginSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBD0108021D7A99C0071CEA0 /* WSLoginSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSLoginSDK.h; sourceTree = "<group>"; };
 		DBD0108121D7A99C0071CEA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBD0108821D7B6540071CEA0 /* WSLoginBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSLoginBase.h; sourceTree = "<group>"; };
+		DBD0108921D7B6540071CEA0 /* WSLoginBase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSLoginBase.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +76,8 @@
 			children = (
 				DBD0108021D7A99C0071CEA0 /* WSLoginSDK.h */,
 				DBD0108121D7A99C0071CEA0 /* Info.plist */,
+				DBD0108821D7B6540071CEA0 /* WSLoginBase.h */,
+				DBD0108921D7B6540071CEA0 /* WSLoginBase.m */,
 			);
 			path = WSLoginSDK;
 			sourceTree = "<group>";
@@ -84,6 +90,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DBD0108221D7A99C0071CEA0 /* WSLoginSDK.h in Headers */,
+				DBD0108A21D7B6540071CEA0 /* WSLoginBase.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,6 +123,7 @@
 		DBD0107421D7A99C0071CEA0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = WS;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "蓝秀文";
 				TargetAttributes = {
@@ -195,6 +203,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBD0108B21D7B6540071CEA0 /* WSLoginBase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -25,12 +25,14 @@ PODS:
   - "GoogleToolboxForMac/NSString+URLArguments (2.2.0)"
   - GTMSessionFetcher/Core (1.2.1)
   - WechatOpenSDK (1.7.9)
+  - WeSingLibs/WSLoginSDK (1.0.0)
 
 DEPENDENCIES:
   - FBSDKLoginKit (= 4.36.0)
   - FBSDKShareKit (= 4.36.0)
   - GoogleSignIn
   - WechatOpenSDK (= 1.7.9)
+  - WeSingLibs/WSLoginSDK (from `../WeSingLibs.podspec`)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -43,6 +45,10 @@ SPEC REPOS:
     - GTMSessionFetcher
     - WechatOpenSDK
 
+EXTERNAL SOURCES:
+  WeSingLibs:
+    :path: "../WeSingLibs.podspec"
+
 SPEC CHECKSUMS:
   Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
   FBSDKCoreKit: 3b8e6570eedb443f9fc4af196a7bf39f18e3a3d8
@@ -52,7 +58,8 @@ SPEC CHECKSUMS:
   GoogleToolboxForMac: ff31605b7d66400dcec09bed5861689aebadda4d
   GTMSessionFetcher: 32aeca0aa144acea523e1c8e053089dec2cb98ca
   WechatOpenSDK: 1fe7e3b07db860d6a936c3ff4a5aba6b890958d9
+  WeSingLibs: 64bb5e980bf463b204dd04d8b652bfef82c544b8
 
-PODFILE CHECKSUM: c68e4c38407ca04d1048a0d3e1f7c986388cd3c6
+PODFILE CHECKSUM: f44d1329e320be3d1c67a1d1cccd476cca4a3e2d
 
 COCOAPODS: 1.5.3

@@ -10,12 +10,17 @@ def loginSDK_pods
     pod 'WechatOpenSDK', '1.7.9'
 end
 
+def wesingSDK_pods
+    pod 'WeSingLibs/WSLoginSDK', :path => '../WeSingLibs.podspec'
+end
+
 target 'WeSing' do
   # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
   use_frameworks!
 
   # Pods for WeSing
   loginSDK_pods
+  wesingSDK_pods
 
 end
 
@@ -28,4 +33,3 @@ target 'WSLoginSDK' do
   loginSDK_pods
 
 end
-
