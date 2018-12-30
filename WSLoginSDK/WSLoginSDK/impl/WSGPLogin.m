@@ -7,6 +7,7 @@
 //
 
 #import "WSGPLogin.h"
+@import GoogleSignIn;
 
 @implementation WSGPLogin
 

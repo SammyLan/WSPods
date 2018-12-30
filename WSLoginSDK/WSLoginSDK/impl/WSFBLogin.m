@@ -7,6 +7,8 @@
 //
 
 #import "WSFBLogin.h"
+@import FBSDKLoginKit;
+
 
 @implementation WSFBLogin
 

@@ -7,6 +7,7 @@
 //
 
 #import "WSTWTLogin.h"
+@import Twitter;
 
 @implementation WSTWTLogin
 

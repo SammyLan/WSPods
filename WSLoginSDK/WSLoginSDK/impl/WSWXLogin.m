@@ -7,6 +7,7 @@
 //
 
 #import "WSWXLogin.h"
+@import WebKit;
 
 @implementation WSWXLogin
 
