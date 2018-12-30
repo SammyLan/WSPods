@@ -6,12 +6,12 @@
 //  Copyright © 2018 蓝秀文. All rights reserved.
 //
 
-#import "WSLoginBase.h"
+#import "WSLoginBase+Private.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface WSFBLogin : WSLoginBase
-
+DECL_SINGLETON(WSFBLogin);
 @end
 
 NS_ASSUME_NONNULL_END

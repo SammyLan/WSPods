@@ -1,25 +1,14 @@
 //
-//  WSWXLogin.m
+//  WSLoginBase+Private.m
 //  WSLoginSDK
 //
-//  Created by 蓝秀文 on 2018/12/29.
+//  Created by 蓝秀文 on 2018/12/30.
 //  Copyright © 2018 蓝秀文. All rights reserved.
 //
 
-#import "WSWXLogin.h"
+#import "WSLoginBase+Private.h"
 
-@implementation WSWXLogin
-
-IMPL_SINGLETON(WSWXLogin);
-
-
-- (instancetype)init {
-    self = [super init];
-    if (self) {
-        
-    }
-    return self;
-}
+@implementation WSLoginBase (Private)
 
 - (BOOL) login:(id<WSLoginDelegate>)delegate{
     return NO;
@@ -40,5 +29,4 @@ IMPL_SINGLETON(WSWXLogin);
 - (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<UIApplicationOpenURLOptionsKey,id> *)options{
     return NO;
 }
-
 @end
